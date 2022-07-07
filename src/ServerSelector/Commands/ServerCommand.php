@@ -37,16 +37,16 @@ class ServerCommand extends Command {
             }
             switch($data){
                 case 0:
-                    $this->plugin->getServer()->getCommandMap()->dispatch($player, "transferserver " . $this->plugin->getConfig()->get("server1")); 
+                    $player->transfer($this->plugin->getConfig()->get("server1"), $this->plugin->getConfig()->get("port1")); 
                 break;
                 case 2:
-                    $this->plugin->getServer()->getCommandMap()->dispatch($player, "transferserver " . $this->plugin->getConfig()->get("server2")); 
+                    $player->transfer($this->plugin->getConfig()->get("server2"), $this->plugin->getConfig()->get("port2")); 
                 break;
                 case 3:
-                    $this->plugin->getServer()->getCommandMap()->dispatch($player, "transferserver " . $this->plugin->getConfig()->get("server3")); 
+                    $player->transfer($this->plugin->getConfig()->get("server3"), $this->plugin->getConfig()->get("port3")); 
                 break;
                 case 4:
-                    $this->plugin->getServer()->getCommandMap()->dispatch($player, "transferserver " . $this->plugin->getConfig()->get("server4")); 
+                    $player->transfer($this->plugin->getConfig()->get("server4"), $this->plugin->getConfig()->get("port4")); 
                 break;
             }
         });

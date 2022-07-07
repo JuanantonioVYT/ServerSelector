@@ -2,10 +2,17 @@
 
 #Server Config
 
-Server1: "123.1.2.3 19132"
-Server1: "123.1.2.3 19132"
-Server1: "123.1.2.3 19132"
-Server1: "123.1.2.3 19132"
+server1: "123.1.2.3"
+server1: "123.1.2.3"
+server1: "123.1.2.3"
+server1: "123.1.2.3"
+
+#Port Config
+
+port1: 19132
+port2: 19132
+port3: 19132
+port4: 19132
 
 #Menu Config
 
