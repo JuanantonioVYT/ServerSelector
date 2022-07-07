@@ -8,9 +8,9 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\console\ConsoleCommandSender;
 use pocketmine\world\Position;
-use Forms\FormAPI\Form;
-use Forms\FormAPI\FormAPI;
-use Forms\FormAPI\SimpleForm;
+use Vecnavium\FormsUI\Form;
+use Vecnavium\FormsUI\FormAPI;
+use Vecnavium\FormsUI\SimpleForm;
 use ServerSelector\ServerSelector;
 
 class ServerCommand extends Command {
