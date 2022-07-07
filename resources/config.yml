@@ -1,0 +1,27 @@
+#ServerSelector made by JuanantonioVYT for MegaHosting Community
+
+#Server Config
+
+Server1: "123.1.2.3:19132"
+Server1: "123.1.2.3:19132"
+Server1: "123.1.2.3:19132"
+Server1: "123.1.2.3:19132"
+
+#Menu Config
+
+Title: "Server Selector"
+Info: "Selecciona la modalidad que quieras"
+Form1: "Server"
+Form2: "Server2"
+Form3: "Server3"
+Form4: "Server4"
+
+#Countdown Messages Config
+
+Countdown1: "Teleporting to server in 5" #Soon
+Countdown2: "Teleporting to server in 4" #Soon
+Countdown3: "Teleporting to server in 3" #Soon
+Countdown4: "Teleporting to server in 2" #Soon
+Countdown5: "Teleporting to server in 1" #Soon
+
+#Soon More Updates
