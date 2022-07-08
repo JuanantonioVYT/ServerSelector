@@ -17,7 +17,7 @@ class ServerSelector extends PluginBase {
 
     public function onEnable() : void {
         $this->getLogger()->info(MG::GREEN . "ServerSelector enabled successfully, plugin made by JuanantonioVYT for MegaHost community");
-        $this->getServer()->getCommandMap()->register("/serverselector", new ServerCommand($this));
+        $this->getServer()->getCommandMap()->register("/serverselector", new ServerCommand());
         $this->saveResource("config.yml");
 
     }
